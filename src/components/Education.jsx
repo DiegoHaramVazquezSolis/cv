@@ -7,7 +7,7 @@ const Education = props => (
     <div className='Education'>
         <div className='Education-container'>
         <H2styled title='Educacion' />
-            {props.data.map((edu, index) => (
+            {/*props.data.map((edu, index) => (
                 <div className='Education-item' key={'Edu-'+index}>
                     <H3styled>
                         {edu.degree} {edu.institution}
@@ -17,18 +17,18 @@ const Education = props => (
                         {edu.description}
                     </Pstyled>
                 </div>
-            ))}
+            ))*/}
             <div className='Education-item'>
-                <h3>CETI Rio Santiago</h3>
-                <p>Jugue bastante futbol</p>
+                <H3styled>CETI Rio Santiago</H3styled>
+                <Pstyled>Desarrolle bastante mi futbol</Pstyled>
             </div>
             <div className='Education-item'>
-                <h3>ITESO</h3>
-                <p>
+                <H3styled>ITESO</H3styled>
+                <Pstyled>
                     Cursando actualmete primer semestre
                     en ingenieria en sistemas computacionales
                     (esta jodidisimo)
-                </p>
+                </Pstyled>
             </div>
         </div>
     </div>
